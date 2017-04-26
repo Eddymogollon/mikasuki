@@ -7,16 +7,8 @@ router.get('/', function(req, res) {
     res.render('index');
 });
 
-router.get('/gameoflife', function(req, res) {
-    res.redirect('http://codepen.io/EddyMogollon/full/egjOGe');
-});
-
-router.get('/url', function(req, res) {
-	res.redirect('https://urled.herokuapp.com');
-});
-
-router.get('/pokebot', function(req, res) {
-	res.redirect('https://github.com/Eddymogollon/fb-pokedex');
+router.get('/presentation', function(req, res) {
+	res.redirect('https://docs.google.com/presentation/d/1Gb4APUw2QSmSP9Fu8L2g8jS0Iyw46FMABwIdOBGL18g/');
 });
 
 // Handle 404 - Keep this as a last route
